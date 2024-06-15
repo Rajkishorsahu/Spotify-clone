@@ -1,0 +1,68 @@
+.border{
+    border:2px solid red;
+}
+.flex{
+    display: flex;
+}
+.justyfy-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:invert(1)
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin:5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2b2b2b; /* Track background color */
+    border-radius: 10px; /* Optional: round track edges */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6e6e6e; /* Thumb color */
+    border-radius: 10px; /* Optional: round thumb edges */
+    border: 2px solid #2b2b2b; /* Optional: create a gap around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8c8c8c; /* Thumb color on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #6e6e6e #2b2b2b; /* Thumb and track colors */
+}
+
+/* For IE and Edge */
+body {
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* Auto-hiding scrollbar */
+}
+
+/* Optional: Additional styling for scrollbar buttons (if present) */
+::-webkit-scrollbar-button {
+    background: #2b2b2b; /* Button background color */
+    height: 0; /* Remove buttons if not needed */
+    width: 0;
+}
